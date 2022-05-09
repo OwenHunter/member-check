@@ -6,5 +6,7 @@ enableHelp = false;
 //// uncomment and set if enableHelp = true
 // helpMessage = "";
 
+pageTitle = ""
+
 //// format [name <str>(, id <str>)]
 memberList = [[]];

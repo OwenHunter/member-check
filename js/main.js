@@ -69,3 +69,6 @@ if (!enableHelp) {
 } else {
   document.getElementById("help").innerHTML = helpMessage;
 }
+
+document.getElementsByTagName("title").innerHTML = pageTitle;
+document.getElementById("title").innerHTML = pageTitle;
