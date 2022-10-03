@@ -41,6 +41,7 @@ function memberCheck() {
   }
 }
 
+// main help function
 function help() {
   var help = document.getElementById("help");
   if (help.style.display === "none") {
