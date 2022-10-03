@@ -49,6 +49,7 @@ function help() {
   }
 }
 
+// function to edit placeholder
 function changePlaceholder() {
   var input = document.getElementById("userInput");
 
