@@ -1,3 +1,4 @@
+// find if member provided is in the list provided in config.js
 function find_member(memberStr) {
   for (var i = 0; i < memberList.length; i++) {
     if (memberList[i][0] == memberStr) {
