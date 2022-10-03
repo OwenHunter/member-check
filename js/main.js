@@ -9,6 +9,7 @@ function find_member(memberStr) {
   }
 }
 
+// main check function
 function memberCheck() {
   document.getElementById("output").style.backgroundColor = "";
   document.getElementById("output").innerHTML = "";
