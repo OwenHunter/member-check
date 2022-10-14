@@ -1,4 +1,3 @@
-// find if member provided is in the list provided in config.js
 function find_member(memberStr) {
   for (var i = 0; i < memberList.length; i++) {
     if (memberList[i][0] == memberStr) {
@@ -9,7 +8,6 @@ function find_member(memberStr) {
   }
 }
 
-// main check function
 function memberCheck() {
   document.getElementById("output").style.backgroundColor = "";
   document.getElementById("output").innerHTML = "";
@@ -41,7 +39,6 @@ function memberCheck() {
   }
 }
 
-// main help function
 function help() {
   var help = document.getElementById("help");
   if (help.style.display === "none") {
@@ -51,7 +48,6 @@ function help() {
   }
 }
 
-// function to edit placeholder
 function changePlaceholder() {
   var input = document.getElementById("userInput");
 
